@@ -3,6 +3,7 @@ MATLAB and Simulink codes that are used in the ongoing senior project.
 
 ## The objective of this post.
 This senior project aims to design the controller (or regulator) for load frequency control (LFC) in an isolated grid with high penetration of renewable energy.
+
 In short, the main problem is that the classic controller design methods, widely studied in coursework, only consider the case with the step input signals that remain constant over time.
 
 However, in practical scenarios, load demand and renewable energy are highly uncertain and vary persistently for a long period of time.
