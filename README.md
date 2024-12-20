@@ -4,7 +4,8 @@ MATLAB and Simulink codes that are used in the ongoing senior project.
 ## The objective of this post.
 This senior project aims to design the controller (or regulator) for load frequency control (LFC) in an isolated grid with high penetration of renewable energy.
 In short, the main problem is that the classic controller design methods, widely studied in coursework, only consider the case with the step input signals that remain constant over time.
-However, in practical scenarios, load demand and renewable energy are highly uncertain and vary persistently for a long period of time. \n
+
+However, in practical scenarios, load demand and renewable energy are highly uncertain and vary persistently for a long period of time.
 Also, Conventional approaches such as LQR and Model Predict Control (MPC) are often ineffective due to the difficulty in defining sufficient objective functions.
 
 To achieve the senior project's goal. We validate that the 'method of inequality' can be applied to load frequency control, which is considered a conditional linear control system due to generation rate constraints.
