@@ -1,5 +1,7 @@
 # Senior-Project---MATLAB-and-Simulink-scripts
 MATLAB and Simulink codes that are used in the ongoing senior project.
+I'd like to express my gratitude to my advisor, Professor Suchin Arunsawatwong, for his insightful feedback and invaluable guidance. 
+and special thanks to Marwin Vanitchanon, for his collaboration and dedication.
 
 ## The objective of this post.
 This senior project aims to design the controller (or regulator) for load frequency control (LFC) in an isolated grid with high penetration of renewable energy.
