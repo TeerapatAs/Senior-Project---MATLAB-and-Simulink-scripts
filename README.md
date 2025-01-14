@@ -8,12 +8,16 @@ This senior project aims to design the controller (or regulator) for load freque
 
 In short, the main problem is that the classic controller design methods, widely studied in coursework, only consider the case with the step input signals that remain constant over time.
 
-However, in practical scenarios, load demand and renewable energy are highly uncertain and vary persistently for a long period of time.
+However, in practical scenarios, load demand and renewable energy are uncertain and vary persistently for a long period of time.
 Also, Conventional approaches such as LQR and Model Predict Control (MPC) are often ineffective due to the difficulty in defining sufficient objective functions.
 
 To achieve the senior project's goal. We validate that the 'method of inequality' can be applied to load frequency control, which is considered a conditional linear control system due to generation rate constraints.
 This post shows the validation process. For more information, please look up **"Senior_Project_Proposal_Edited.pdf"**.
 
+**The magnitude and slope of the load demand persistently change over time.**
+![figure3](https://github.com/user-attachments/assets/fc23f840-0b9d-43bd-ad90-4ce902e29b99)
+**The frequency deviations and the generation rate constraint are bounded within defined limits**
+![figure4](https://github.com/user-attachments/assets/76f21766-3a4e-47bd-baaf-44fef9565d16)
 
 ## File descriptions:
 This folder doesn't contain the MBP algorithm.
